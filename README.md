@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # generator-joomla3 (Yeoomla)
 [Joomla](http://joomla.org/) 3.5 generator for [Yeoman](http://yeoman.io/)
 
@@ -48,3 +49,7 @@ There are currently **1** subgenerators:
 
 ## License
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
+=======
+# generator-joomla3 (Yeooma)
+Yeoman generator for Joomla 3.5
+>>>>>>> e5eef41b1d0cd11e5cbe8badc4149233efc6694a
