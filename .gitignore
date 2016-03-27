@@ -1,4 +1,5 @@
 node_modules/
+images/
 generators/temp/
 temp/
 *.DS_Store
