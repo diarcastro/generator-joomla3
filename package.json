@@ -10,7 +10,7 @@
 		"type": "git",
 		"url": "git://github.com/diarcastro/generator-joomla3"
 	},
-  "description": "Joomla 3 Yeoman generator",
+  "description": "Joomla 3 Yeoman generator (Yeoomla)",
   "files": [
     "generators/app",
     "generators/crud",
@@ -34,9 +34,7 @@
   "dependencies": {
     "pluralize": "^1.2.1",
     "yeoman-generator": "^0.20.3",
-    "yosay": "^1.1.0"
-  },
-  "dependencies-x": {
+    "yosay": "^1.1.0",
     "extend": "^3.0.0",
     "mkdirp": "^0.5.1",
     "underscore.string": "^3.2.2"
