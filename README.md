@@ -34,7 +34,7 @@ $ yo joomla3
 ```
 
 ## Subgenerators
-There are currently **1** subgenerators:
+There are currently **1** subgenerator:
 
 1. *crud*: ``yo joomla3:crud`` Generate a CRUD(Controllers, Models(Form, Filter), Tables, Views, Language) for a joomla component
 
