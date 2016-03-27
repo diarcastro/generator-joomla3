@@ -1,0 +1,20 @@
+{
+  "name": "<%= s.capitalize(projectName) %>",
+  "description": "<%= projectDescription %>",
+  "projectName": "<%= projectName %>",
+  "author": {
+    "name": "<%= authorName %>",
+    "email": "<%= authorEmail %>",
+    "url": "<%= authorURL %>"
+  },
+  "licenses": [
+    {
+      "type": "<%= license %>"
+    }
+  ],
+  "repository": "",
+  "readme": "<%= projectDescription %>",
+  "version": "1.0.0",
+  "dependencies": {
+  }
+}

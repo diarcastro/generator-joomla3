@@ -1,0 +1,8 @@
+Description:
+    Create a Joomla 3.5 Component
+
+Other Options:
+    yo joomla3:crud             Generate a CRUD for a Joomla 3.5 Component
+    yo joomla3:plugin           Generate a plugin for Joomla 3.5 (Under construction)
+    yo joomla3:module           Generate a module for Joomla 3.5 (Under construction)
+    yo joomla3:custom-field     Generate a list custom field for Joomla 3.5 (Under construction)

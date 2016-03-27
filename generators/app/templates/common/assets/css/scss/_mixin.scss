@@ -1,0 +1,41 @@
+@mixin respond-to($media:sm, $size:max) {
+  @if $media == xs {
+    @media(#{$size}-width: $width-xs){ @content; }
+  }
+  @else if $media == xs1 {
+    @media(#{$size}-width: $width-xs1){ @content; }
+  }
+  @else if $media == sm {
+    @media(#{$size}-width: $width-sm){ @content; }
+  }
+  @else if $media == md {
+    @media(#{$size}-width: $width-md){ @content; }
+  }
+  @else if $media == lg {
+    @media(#{$size}-width: $width-lg){ @content; }
+  }
+  @else{
+    @media(#{$size}-width: $media){ @content; }
+  }
+}
+
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
+}
+
+@mixin border-radius($radius){
+  @include vendor-prefix(border-radius, $radius);
+}
+@mixin transition($transition:all, $time:.3s){
+  @include vendor-prefix(transition, $transition $time);
+}
+@mixin box-shadow($color:#000, $options:2px 2px 10px -4px){
+  @include vendor-prefix(box-shadow, $color $options);
+}
+@mixin text-shadow($color:#000, $options:1px 1px 3px){
+  @include vendor-prefix(text-shadow, $color $options);
+}

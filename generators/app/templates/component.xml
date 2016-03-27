@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.5" method="upgrade">
+  <name>com_<%=projectName%></name>
+  <author><%=authorName%></author>
+  <creationDate><%=creationDate%></creationDate>
+  <copyright>Generated with yeoman-joomla3 generator by @diarcastro</copyright>
+  <license><%=license%></license>
+  <authorEmail><%=authorEmail%></authorEmail>
+  <authorUrl><%=authorURL%></authorUrl>
+  <version>1.0</version>
+  <description><%=projectDescription%></description>
+
+  <scriptfile>script.php</scriptfile>
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+    </sql>
+  </install>
+  <uninstall>
+    <sql>
+      <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+    </sql>
+  </uninstall>
+
+  <update>
+      <schemas>
+          <schemapath type="mysql">sql/updates/mysql</schemapath>
+      </schemas>
+  </update>
+
+  <files folder="site">
+    <folder>assets</folder>
+    <folder>controllers</folder>
+    <folder>helpers</folder>
+    <folder>includes</folder>
+    <folder>models</folder>
+    <folder>views</folder>
+    <filename><%=projectName%>.php</filename>
+    <filename>controller.php</filename>
+    <filename>composer.json</filename>
+    <filename>router.php</filename>
+    <filename>package.json</filename>
+    <filename>gulpfile.js</filename>
+    <filename>bower.json</filename>
+  </files>
+
+  <media folder="media" destination="<%=projectName%>">
+    <folder>css</folder>
+    <folder>images</folder>
+    <folder>js</folder>
+  </media>
+
+  <languages folder="site">
+    <language tag="en-GB">language/en-GB/en-GB.com_<%=projectName%>.ini</language>
+    <language tag="es-ES">language/es-ES/es-ES.com_<%=projectName%>.ini</language>
+  </languages>
+
+  <administration>
+    <menu img="class:<%=projectName%>">com_<%=projectName%></menu>
+    <submenu>
+      <% submenu.forEach(function(menu){%><menu link="option=com_<%=projectName%>&amp;view=<%=menu%>" view="<%=menu%>" img="class:<%=menu%>" alt="<%=s.capitalize(projectName)%>/<%=s.capitalize(menu)%>">com_<%=projectName%>_<%=menu%></menu><%});%>
+    </submenu>
+    <files folder="admin">
+      <folder>assets</folder>
+      <folder>controllers</folder>
+      <folder>helpers</folder>
+      <folder>includes</folder>
+      <folder>models</folder>
+      <folder>sql</folder>
+      <folder>tables</folder>
+      <folder>views</folder>
+      <filename>access.xml</filename>
+      <filename><%=projectName%>.php</filename>
+      <filename>config.xml</filename>
+      <filename>controller.php</filename>
+      <filename>composer.json</filename>
+      <filename>package.json</filename>
+      <filename>gulpfile.js</filename>
+      <filename>bower.json</filename>
+    </files>
+
+    <languages folder="admin">
+      <language tag="en-GB">language/en-GB/en-GB.com_<%=projectName%>.ini</language>
+      <language tag="en-GB">language/en-GB/en-GB.com_<%=projectName%>.sys.ini</language>
+      <language tag="es-ES">language/es-ES/es-ES.com_<%=projectName%>.ini</language>
+      <language tag="es-ES">language/es-ES/es-ES.com_<%=projectName%>.sys.ini</language>
+    </languages>
+
+  </administration>
+</extension>

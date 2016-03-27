@@ -1,0 +1,44 @@
+{
+  "name": "generator-joomla3",
+  "version": "0.1.0",
+  "autor": [
+    "Diego Castro",
+    "ing.diegocastro@gmail.com"
+  ],
+  "main": "generators/app/index.js",
+  "repository": {
+		"type": "git",
+		"url": "git://github.com/diarcastro/generator-joomla3"
+	},
+  "description": "Joomla 3 Yeoman generator",
+  "files": [
+    "generators/app",
+    "generators/crud",
+    "generators/custom-field",
+    "generators/includes",
+    "generators/module",
+    "generators/plugin"
+  ],
+  "keywords": [
+    "yeoman-generator, joomla, joomla3, yeoomla"
+  ],
+  "engines": {
+		"node": ">=0.8.0",
+		"npm": ">=1.2.10"
+	},
+	"licenses": [
+		{
+			"type": "MIT"
+		}
+	],
+  "dependencies": {
+    "pluralize": "^1.2.1",
+    "yeoman-generator": "^0.20.3",
+    "yosay": "^1.1.0"
+  },
+  "dependencies-x": {
+    "extend": "^3.0.0",
+    "mkdirp": "^0.5.1",
+    "underscore.string": "^3.2.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "<%= s.slugify(authorName) %>/<%=projectName%>",
+    "description": "<%= projectDescription %>",
+    "authors": [
+        {
+            "name": "<%= authorName %>",
+            "email": "<%= authorEmail %>"
+        }
+    ],
+    "require": {
+        
+    }
+}

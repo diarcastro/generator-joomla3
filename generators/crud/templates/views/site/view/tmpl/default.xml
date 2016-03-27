@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <layout title="<%=data.componentName.uCase()%>_<%=data.modelItemName%>_VIEW_DEFAULT_TITLE" option="<%=data.componentName.uCase()%>_<%=data.modelItemName.uCase()%>_VIEW_DEFAULT_OPTION">
+    <!--<help key = "JHELP_MENUS_MENU_ITEM_<%=data.modelItemName%>_<%=data.viewName%>" />-->
+    <message>
+			<![CDATA[<%=data.componentName.uCase()%>_<%=data.modelItemName.uCase()%>_VIEW_DEFAULT_DESC]]>
+    </message>
+  </layout>
+
+  <!-- Add fields to the parameters object for the layout. -->
+  <fields name="params">
+    <!-- Basic options. -->
+    <fieldset name="basic" label="COM_MENUS_BASIC_FIELDSET_LABEL">
+
+    </fieldset>
+  </fields>
+</metadata>

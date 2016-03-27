@@ -1,0 +1,23 @@
+{
+  "name": "<%=projectName%>",
+  "description": "<%=projectDescription%>",
+  "main": "",
+  "authors": [
+    "<%=authorName%> <<%=authorEmail%>>"
+  ],
+  "license": "<%= license %>",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "suggested-dependencies": {
+    "bourbon":"*"
+  },
+  "dependencies": {
+  }
+}

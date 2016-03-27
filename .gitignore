@@ -1,0 +1,4 @@
+node_modules/
+generators/temp/
+temp/
+*.DS_Store
