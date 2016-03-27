@@ -20,7 +20,10 @@
     "generators/plugin"
   ],
   "keywords": [
-    "yeoman-generator, joomla, joomla3, yeoomla"
+    "yeoman-generator",
+    "joomla",
+    "joomla3",
+    "yeoomla"
   ],
   "engines": {
 		"node": ">=0.8.0",
