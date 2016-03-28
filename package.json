@@ -1,17 +1,17 @@
 {
   "name": "generator-joomla3",
   "version": "0.1.1",
-	"homepage": "https://github.com/diarcastro/generator-joomla3",
-	"bugs": "https://github.com/diarcastro/generator-joomla3/issues",
+  "homepage": "https://github.com/diarcastro/generator-joomla3",
+  "bugs": "https://github.com/diarcastro/generator-joomla3/issues",
   "author": {
-		"name": "Diego Castro",
-		"email": "ing.diegocastro@gmail.com",
-		"url": "https://github.com/diarcastro"
+    "name": "Diego Castro",
+    "email": "ing.diegocastro@gmail.com",
+    "url": "https://github.com/diarcastro"
 	},
   "main": "generators/app/index.js",
   "repository": {
 		"type": "git",
-		"url": "git://github.com/diarcastro/generator-joomla3"
+		"url": "git://github.com/diarcastro/generator-joomla3.git"
 	},
   "description": "Joomla 3 Yeoman generator (Yeoomla)",
   "files": [
