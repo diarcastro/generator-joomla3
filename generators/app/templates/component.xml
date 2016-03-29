@@ -58,7 +58,7 @@
   <administration>
     <menu img="class:<%=projectName%>">com_<%=projectName%></menu>
     <submenu>
-      <% submenu.forEach(function(menu){%><menu link="option=com_<%=projectName%>&amp;view=<%=menu%>" view="<%=menu%>" img="class:<%=menu%>" alt="<%=s.capitalize(projectName)%>/<%=s.capitalize(menu)%>">com_<%=projectName%>_<%=menu%></menu><%});%>
+      <% submenu.forEach(function(menu){%><menu link="index.php?option=com_<%=projectName%>&amp;view=<%=menu%>" view="<%=menu%>" img="class:<%=menu%>" alt="<%=s.capitalize(projectName)%>/<%=s.capitalize(menu)%>">com_<%=projectName%>_<%=menu%></menu><%});%>
     </submenu>
     <files folder="admin">
       <folder>assets</folder>

@@ -49,7 +49,7 @@ var crud = generators.Base.extend({
       var componentXML = './' + data.projectName + '.xml',
         content, index;
       if (this.fs.exists(componentXML)) {
-        var submenu = '\t<menu link="option=' + data.componentName + '&amp;view=' + data.modelListName + '" view="' + data.modelListName + '" img="class:' + data.modelListName + '" alt="' + s.capitalize(data.projectName) + '/' + s.capitalize(data.modelListName) + '">' + data.componentName + '_' + data.modelListName + '</menu>\n\t\t';
+        var submenu = '\t<menu link="index.php?option=' + data.componentName + '&amp;view=' + data.modelListName + '" view="' + data.modelListName + '" img="class:' + data.modelListName + '" alt="' + s.capitalize(data.projectName) + '/' + s.capitalize(data.modelListName) + '">' + data.componentName + '_' + data.modelListName + '</menu>\n\t\t';
         content = this.fs.read(componentXML);
         index = content.indexOf('</submenu>');
         if (index >= 0 && content.indexOf(s.capitalize(data.projectName) + '/' + s.capitalize(data.modelListName)) == -1) {
@@ -302,7 +302,7 @@ var crud = generators.Base.extend({
     if (data.modelItem) {
       filesToCopy[this.templatePath('models/model.php')] = data.baseDir + 'models/' + data.modelItemName + '.php';
       if (data.generateForm) { //Create Form
-        filesToCopy[this.templatePath('models/forms/form.xml')] = data.baseDir + 'models/forms/' + data.modelItemName + '.php';
+        filesToCopy[this.templatePath('models/forms/form.xml')] = data.baseDir + 'models/forms/' + data.modelItemName + '.xml ';
       }
       if (data.generateController) { //Create JControllerForm
         filesToCopy[this.templatePath('controllers/controller.php')] = data.baseDir + 'controllers/' + data.modelItemName + '.php';
