@@ -7,6 +7,7 @@ var generators = require('yeoman-generator'),
   yosay = require('yosay'),
   s = require('underscore.string'),
   pluralize = require('pluralize'),
+  updateChecker=require('../includes/update-checker'),
   path = require('path');
 
 
@@ -15,10 +16,9 @@ var joomla3 = generators.Base.extend({
     generators.Base.apply(this, arguments);
     this.s = s;
     this.pluralize=pluralize;
-
   },
   askForProjectName:function(){
-    this.log(yosay('Hello! Welcome to Joomla 3.5 generator by Diego Castro @diarcastro'));
+    updateChecker('Generate Component!');
     var prompts = [{
       type: 'text',
       name: 'projectName',

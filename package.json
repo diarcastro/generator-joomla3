@@ -7,12 +7,12 @@
     "name": "Diego Castro",
     "email": "ing.diegocastro@gmail.com",
     "url": "https://github.com/diarcastro"
-	},
+  },
   "main": "generators/app/index.js",
   "repository": {
-		"type": "git",
-		"url": "git://github.com/diarcastro/generator-joomla3.git"
-	},
+    "type": "git",
+    "url": "git://github.com/diarcastro/generator-joomla3.git"
+  },
   "description": "Joomla 3 Yeoman generator (Yeoomla)",
   "files": [
     "generators/app",
@@ -29,20 +29,21 @@
     "yeoomla"
   ],
   "engines": {
-		"node": ">=0.8.0",
-		"npm": ">=1.2.10"
-	},
-	"licenses": [
-		{
-			"type": "MIT"
-		}
-	],
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
   "dependencies": {
-    "pluralize": "^1.2.1",
-    "yeoman-generator": "^0.20.3",
-    "yosay": "^1.1.0",
     "extend": "^3.0.0",
     "mkdirp": "^0.5.1",
-    "underscore.string": "^3.2.2"
+    "pluralize": "^1.2.1",
+    "underscore.string": "^3.2.2",
+    "update-notifier": "^0.6.3",
+    "yeoman-generator": "^0.20.3",
+    "yosay": "^1.1.0"
   }
 }

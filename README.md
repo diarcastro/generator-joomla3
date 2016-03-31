@@ -43,6 +43,11 @@ There are currently **1** subgenerator:
 3. *module*: ``yo joomla3:module`` Generate a default module
 4. *plugin*: ``yo joomla3:plugin`` Generate a default plugin with all events
 
+## Improvements in this version ``v0.1.3``
+1. Version Checker
+2. Add constant for view details
+3. Add path in filter.xml
+
 ## Donate for improvements and maintenance
 ### [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VYEPJKUE4469A&lc=US&item_name=generator%2djoomla3&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 

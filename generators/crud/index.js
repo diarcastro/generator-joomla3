@@ -8,6 +8,7 @@ var generators = require('yeoman-generator'),
   path = require('path'),
   jlang = require('../includes/jlang'),
   fieldsPrompt=require('../includes/fields-prompt'),
+  updateChecker=require('../includes/update-checker'),
   pluralize = require('pluralize'),
   data = {},
   adminEnv = 'admin',
@@ -81,6 +82,7 @@ var crud = generators.Base.extend({
 
   },
   askForProject: function() {
+    updateChecker('Generate Component CRUD!');
     var prompts = [];
     if (!data.package.projectName) {
       prompts.push({
@@ -367,6 +369,7 @@ var crud = generators.Base.extend({
         jlang.add('LIST_LIMIT', ['Limit', 'Limite']);
         jlang.add('LIST_LIMIT_DESC', ['Limit', 'Limite']);
       }
+      jlang.add(data.modelItemName+'_DETAILS', [data.modelItemName+' Details', 'Detalles de '+data.modelItemName]);
       jlang.add('MANAGER_' + data.modelItemName + '_NEW', [s.capitalize(data.projectName) + ': New ' + s.humanize(data.modelItemName), s.capitalize(data.projectName) + ': Nuevo ' + s.humanize(data.modelItemName)]);
       jlang.add('MANAGER_' + data.modelItemName + '_EDIT', [s.capitalize(data.projectName) + ': Edit ' + s.humanize(data.modelItemName), s.capitalize(data.projectName) + ': Editar ' + s.humanize(data.modelItemName)]);
       jlang.add('MANAGER_' + data.modelListName, s.capitalize(data.projectName) + ': ' + s.humanize(data.modelListName));

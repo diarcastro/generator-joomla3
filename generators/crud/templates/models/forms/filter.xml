@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <form>
-	<fields name="filter">
+	<fields name="filter" addfieldpath="/<% if(data.projectEnv=='admin') {%>administrator/<% }%>components/<%=data.componentName%>/models/fields">
 		<field
 			name="search"
 			type="text"
