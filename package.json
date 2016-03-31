@@ -40,6 +40,6 @@
     "update-notifier": "^0.6.3",
     "yeoman-generator": "^0.20.3",
     "yosay": "^1.1.0"
-  }
+  },
   "license": "MIT"
 }
