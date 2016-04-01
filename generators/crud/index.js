@@ -429,10 +429,3 @@ var crud = generators.Base.extend({
 
 
 module.exports = crud;
-
-String.prototype.uCase = function() {
-  return this.toUpperCase();
-};
-String.prototype.lCase = function() {
-  return this.toLowerCase();
-};

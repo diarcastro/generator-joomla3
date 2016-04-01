@@ -6,6 +6,10 @@ var extend = require('extend'),
       yg = yeomanGenerator;
       return this;
     },
+    assignYo: function(yeomanGenerator) {
+      yg = yeomanGenerator;
+      return this;
+    },
     prompting: function(fieldsNumber, options, callback) {
       if (!parseInt(fieldsNumber)){
         if(typeof callback==='function') callback([]);
@@ -84,7 +88,7 @@ var extend = require('extend'),
       if (!prompts.length){
         if(typeof callback==='function') callback([]);
         return false;
-      };
+      }
       var done = yg.async();
       return yg.prompt(prompts, (function(answers) {
         var fields = [];

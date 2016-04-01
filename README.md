@@ -34,19 +34,35 @@ $ yo joomla3
 ```
 
 ## Subgenerators
-There are currently **1** subgenerator:
+There are currently **2** subgenerator:
 
-1. *crud*: ``yo joomla3:crud`` Generate a CRUD(Controllers, Models(Form, Filter), Tables, Views, Language) for a joomla component
+1. *crud*: ``yo joomla3:crud`` Generate a CRUD(Controllers, Models(Form, Filter), Tables, Views, Language, etc.) for a joomla component
+2. *module*: ``yo joomla3:module`` Genearte a generic module with params
 
 ## Under construction
-2. *custom-field*: ``yo joomla3:custom-field`` Generate a custom field for a form
-3. *module*: ``yo joomla3:module`` Generate a default module
-4. *plugin*: ``yo joomla3:plugin`` Generate a default plugin with all events
+- *custom-field*: ``yo joomla3:custom-field`` Generate a custom field for a form in the current folder
+- *plugin*: ``yo joomla3:plugin`` Generate a plugin with all events
+- *controller*: ``yo joomla3:controller`` Generate a generic JController(Form or Admin) in the current Folder
+- *model*: ``yo joomla3:model`` Generate a generic JModel(Form or List) in the current Folder
+- *table*: ``yo joomla3:table`` Generate a generic JTable(Form or List) in the current Folder
 
-## Improvements in this version ``v0.1.3``
-1. Version Checker
-2. Add constant for view details
-3. Add path in filter.xml
+## Releases
+``v0.2.0``
+- Add module generator ``yo joomla3:module``
+- Add reusable default data system
+- Add reusable write files
+- Bugs fixed and clean code
+
+``v0.1.3``
+- Version Checker
+- Add constant for view details
+- Add path in filter.xml
+
+``v0.1.2`` && ``v0.1.1``
+- Some bugs fixed
+
+``v0.1.0``
+- generator-joomla3 Born
 
 ## Donate for improvements and maintenance
 ### [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VYEPJKUE4469A&lc=US&item_name=generator%2djoomla3&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)

@@ -28,6 +28,13 @@ var updateChecker = function(title) {
     }));
     return true;
   }
-  return false
+  return false;
+};
+
+String.prototype.uCase = function() {
+  return this.toUpperCase();
+};
+String.prototype.lCase = function() {
+  return this.toLowerCase();
 };
 module.exports = updateChecker;
