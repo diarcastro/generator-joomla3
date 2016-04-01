@@ -48,15 +48,15 @@ There are currently **2** subgenerator:
 
 ## Releases
 ``v0.2.0``
-- Add module generator ``yo joomla3:module``
-- Add reusable default data system
-- Add reusable write files
+- Added: module generator ``yo joomla3:module``
+- Added: reusable default data system
+- Added: reusable write files
 - Bugs fixed and clean code
 
 ``v0.1.3``
 - Version Checker
-- Add constant for view details
-- Add path in filter.xml
+- Added: constant for view details
+- Added: path in filter.xml
 
 ``v0.1.2`` && ``v0.1.1``
 - Some bugs fixed
