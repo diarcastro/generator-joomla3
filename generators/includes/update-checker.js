@@ -6,6 +6,7 @@
 var yosay = require('yosay'),
   updateNotifier = require('update-notifier'),
   chalk = require('chalk'),
+  s = require('underscore.string'),
   path = require('path');
 
 var pkg = require(path.join('../../', '/package.json'));
@@ -36,5 +37,8 @@ String.prototype.uCase = function() {
 };
 String.prototype.lCase = function() {
   return this.toLowerCase();
+};
+String.prototype.slugify=function(){
+  return s.replaceAll(s.slugify(this).lCase(),'-','_');
 };
 module.exports = updateChecker;

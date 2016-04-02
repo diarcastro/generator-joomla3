@@ -12,6 +12,7 @@
 	<files>
 		<filename module="<%=data.moduleName%>"><%=data.moduleName%>.php</filename>
 		<folder>tmpl</folder>
+		<folder>fields</folder>
 		<filename>helper.php</filename>
 	</files>
 	<languages>

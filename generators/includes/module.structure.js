@@ -1,5 +1,6 @@
 module.exports = function get(projectName) {
   return {
+    'fields/index.html'                     :'fields/index.html',
     'language/en-GB/en-GB.module.ini'       :'language/en-GB/en-GB.mod_'+projectName+'.ini',
     'language/en-GB/en-GB.module.sys.ini'   :'language/en-GB/en-GB.mod_'+projectName+'.sys.ini',
     'language/es-ES/es-ES.module.ini'       :'language/es-ES/es-ES.mod_'+projectName+'.ini',
@@ -8,7 +9,7 @@ module.exports = function get(projectName) {
     'helper.php'                      :'',
     'module.php'                      :'mod_'+projectName+'.php',
     'module.xml'                      :'mod_'+projectName+'.xml',
-    'tmpl/default.php'                :'',
+    'tmpl/default.php'                :''
 
   };
 };

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="<%=data.type%>" method="upgrade">
+	<name><%=data.pluginName%></name>
+	<author><%=data.authorName%></author>
+	<creationDate><%=data.creationDate%></creationDate>
+	<copyright>Created by <%=data.authorName%> with generator-joomla3 by @diarcastro</copyright>
+	<license><%=data.license%></license>
+	<authorEmail><%=data.authorEmail%></authorEmail>
+	<authorUrl><%=data.authorURL%></authorUrl>
+	<version>1.0.0</version>
+	<description><%=data.pluginName.uCase()%>_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="<%=data.plugin%>"><%=data.plugin%>.php</filename>
+		<folder>fields</folder>
+		<folder>language</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.<%=data.pluginName%>.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.<%=data.pluginName%>.sys.ini</language>
+		<language tag="es-ES">language/es-ES/es-ES.<%=data.pluginName%>.ini</language>
+		<language tag="es-ES">language/es-ES/es-ES.<%=data.pluginName%>.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/plugins/<%=data.type%>/<%=data.plugin%>/fields">
+				<% data.fields.forEach(function(field){%><field
+						name="<%=field.name%>"
+						type="<%=field.type%>"
+						label="<%=data.pluginName.uCase()%>_FIELD_<%=field.name.uCase()%>_LABEL"
+						description="<%=data.pluginName.uCase()%>_FIELD_<%=field.name.uCase()%>_DESC" />
+				<%})%>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
