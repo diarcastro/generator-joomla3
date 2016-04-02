@@ -90,8 +90,7 @@ There are currently **2** subgenerator:
 - generator-joomla3 Born
 
 ## Donate for improvements and maintenance
-
-**[Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VYEPJKUE4469A&lc=US&item_name=generator%2djoomla3&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)**
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VYEPJKUE4469A&lc=US&item_name=generator%2djoomla3&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
 ### License
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
