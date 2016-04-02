@@ -46,6 +46,7 @@ var generators = require('yeoman-generator'),
       }));
     },
     askForFields: function() {
+      data.fields=[];
       if (data.fieldsNumber) {
         return fieldsPrompt.assignYo(this).prompting(data.fieldsNumber,{
           required: false

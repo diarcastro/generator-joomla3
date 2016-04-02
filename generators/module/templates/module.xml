@@ -15,10 +15,10 @@
 		<filename>helper.php</filename>
 	</files>
 	<languages>
-		<language tag="en-GB">en-GB.<%=data.moduleName%>.ini</language>
-		<language tag="en-GB">en-GB.<%=data.moduleName%>.sys.ini</language>
-		<language tag="es-ES">en-ES.<%=data.moduleName%>.ini</language>
-		<language tag="es-ES">es-ES.<%=data.moduleName%>.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.<%=data.moduleName%>.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.<%=data.moduleName%>.sys.ini</language>
+		<language tag="es-ES">language/en-ES/es-ES.<%=data.moduleName%>.ini</language>
+		<language tag="es-ES">language/es-ES/es-ES.<%=data.moduleName%>.sys.ini</language>
 	</languages>
 	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_<%=data.projectName.uCase()%>" />
 	<config>

@@ -1,14 +1,14 @@
 module.exports = function get(projectName) {
   return {
-    'en-GB.module.ini':'en-GB.mod_'+projectName+'.ini',
-    'en-GB.module.sys.ini':'en-GB.mod_'+projectName+'.sys.ini',
-    'es-ES.module.ini':'es-ES.mod_'+projectName+'.ini',
-    'es-ES.module.sys.ini':'es-ES.mod_'+projectName+'.sys.ini',
+    'language/en-GB/en-GB.module.ini'       :'language/en-GB/en-GB.mod_'+projectName+'.ini',
+    'language/en-GB/en-GB.module.sys.ini'   :'language/en-GB/en-GB.mod_'+projectName+'.sys.ini',
+    'language/es-ES/es-ES.module.ini'       :'language/es-ES/es-ES.mod_'+projectName+'.ini',
+    'language/es-ES/es-ES.module.sys.ini'   :'language/es-ES/es-ES.mod_'+projectName+'.sys.ini',
 
-    'helper.php':'',
-    'module.php':'mod_'+projectName+'.php',
-    'module.xml':'mod_'+projectName+'.xml',
-    'tmpl/default.php':'',
+    'helper.php'                      :'',
+    'module.php'                      :'mod_'+projectName+'.php',
+    'module.xml'                      :'mod_'+projectName+'.xml',
+    'tmpl/default.php'                :'',
 
   };
 };

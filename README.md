@@ -36,7 +36,7 @@ $ yo joomla3
 ## Subgenerators
 There are currently **2** subgenerator:
 
-1. *crud*: ``yo joomla3:crud`` Generate a CRUD(Controllers, Models(Form, Filter), Tables, Views, Language, etc.) for a joomla component
+1. *crud*: ``yo joomla3:crud`` Generate a CRUD(Controllers, Models(Form, Filter), Tables, Views, Language, etc.) for a joomla component.(Run this subgenerator inside the folder created by ``yo joomla3``)
 2. *module*: ``yo joomla3:module`` Genearte a generic module with params
 
 ## Under construction
@@ -47,6 +47,10 @@ There are currently **2** subgenerator:
 - *table*: ``yo joomla3:table`` Generate a generic JTable(Form or List) in the current Folder
 
 ## Releases
+``v0.2.1``
+- Change module generator structure
+- Bug fixed
+
 ``v0.2.0``
 - Added: module generator ``yo joomla3:module``
 - Added: reusable default data system
