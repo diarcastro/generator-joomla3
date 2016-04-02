@@ -58,7 +58,7 @@ There are currently **2** subgenerator:
 
 
 ### Tips:
-  - try to run ``yo joomla3:crud`` subgenerator inside the folder created by ``yo joomla3`` before install.
+  - Try to run ``yo joomla3:crud`` subgenerator inside the folder created by ``yo joomla3`` before install.
   - Make the model form fields based in your table sql structure
   - Accept overwrite lang files to create all translations correctly
   - Try to create cruds(``yo joomla3:crud``) for your tables before install component, if not possible you can run the generators inside the back|front end folder anyway :)
