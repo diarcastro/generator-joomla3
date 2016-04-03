@@ -30,7 +30,7 @@ var joomla3 = generators.Base.extend({
     }];
     var done = this.async();
     return this.prompt(prompts, (function(answers) {
-      this.projectName = this.s(this.s.slugify(answers.projectName)).toLowerCase().value();
+      this.projectName = answers.projectName.slugify();
       done();
     }).bind(this));
   },
@@ -73,7 +73,7 @@ var joomla3 = generators.Base.extend({
       type:'text',
       name:'submenu',
       message:'Type the submenus separates by comma(,)',
-      default:pluralize(this.projectName)
+      default:''
     }
   ];
     var done = this.async();

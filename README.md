@@ -39,7 +39,7 @@ $ yo joomla3
 ```
 
 ## Subgenerators
-There are currently **2** subgenerator:
+There are currently **4** subgenerator:
 
 - *crud*: ``yo joomla3:crud`` Generate a CRUD(Controllers, Models(Form, Filter), Tables, Views, Language, etc.) for a joomla component.
 
@@ -47,8 +47,9 @@ There are currently **2** subgenerator:
 
 - *plugin*: ``yo joomla3:plugin`` Genearte a generic plugin(Any type) with params and events.
 
+- *custom-field*: ``yo joomla3:custom-field`` Genearte a custom field (JFormFieldList).
+
 ## Under construction
-- *custom-field*: ``yo joomla3:custom-field`` Generate a custom field for a form in the current folder
 
 - *controller*: ``yo joomla3:controller`` Generate a generic JController(Form or Admin) in the current Folder
 
@@ -64,6 +65,9 @@ There are currently **2** subgenerator:
   - Try to create cruds(``yo joomla3:crud``) for your tables before install component, if not possible you can run the generators inside the back|front end folder anyway :)
 
 ## Releases
+``v0.3.2``
+- Added: custom-field generator ``yo joomla3:custom-field`` Try it!
+
 ``v0.3.0``
 - Added: plugin generator ``yo joomla3:plugin`` Try it!
 - Bug fixed
