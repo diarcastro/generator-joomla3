@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <form>
-	<fieldset name="fields" addfieldpath="/<% if(data.projectEnv=='admin') {%>administrator/<% }%>components/<%=data.componentName%>/models/fields">
+	<fieldset
+		name="fields"
+		addfieldpath="/<% if(data.projectEnv=='admin') {%>administrator/<% }%>components/<%=data.componentName%>/models/fields"
+		addrulepath=="/<% if(data.projectEnv=='admin') {%>administrator/<% }%>components/<%=data.componentName%>/models/rules">
 		<% data.fields.forEach(function(field){ %>
 		<field
 			name="<%=field.name%>"

@@ -28,6 +28,7 @@ module.exports = function get(projectName) {
 
         'admin/models/fields':'',
         'admin/models/forms':'',
+        'admin/models/rules':'',
         'admin/sql/install.mysql.utf8.sql':'',
         'admin/sql/uninstall.mysql.utf8.sql':'',
         'admin/sql/updates/mysql/1.0.sql':'',
@@ -60,6 +61,7 @@ module.exports = function get(projectName) {
         'site/language/es-ES/es-ES.com_component.ini':'site/language/es-ES/es-ES.com_'+projectName+'.ini',
         'site/models/fields':'',
         'site/models/forms':'',
+        'site/models/rules':'',
         'site/views':'',
         'site/component.php':'site/'+projectName+'.php',
         'site/controller.php':'',

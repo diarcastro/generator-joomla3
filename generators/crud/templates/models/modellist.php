@@ -44,6 +44,7 @@ class <%=data.names.list.model%> extends JModelList{
     $db=$this->getDbo();
     $query=$db->getQuery(true);
     $query->select([
+      <%if(data.fields.length==0){%>'*'<%}%>
       <% data.fields.forEach(function(field){%>'a.<%=field.name%>',
       <% })%>
     ])->from('#__<%=data.projectName%>_<%=data.modelItemName%> a');

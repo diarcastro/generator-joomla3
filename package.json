@@ -1,6 +1,6 @@
 {
   "name": "generator-joomla3",
-  "version": "0.3.2",
+  "version": "0.3.5",
   "homepage": "https://github.com/diarcastro/generator-joomla3",
   "bugs": "https://github.com/diarcastro/generator-joomla3/issues",
   "author": {
@@ -16,11 +16,15 @@
   "description": "Easy Joomla 3 Components, Modules, Plugins, CRUD(for Components), Custom fields Maker! Try it and enjoy it! (Yeoomla)",
   "files": [
     "generators/app",
+    "generators/controller",
     "generators/crud",
     "generators/custom-field",
     "generators/includes",
+    "generators/model",
     "generators/module",
-    "generators/plugin"
+    "generators/plugin",
+    "generators/rule",
+    "generators/table"
   ],
   "keywords": [
     "yeoman-generator",

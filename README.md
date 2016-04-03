@@ -1,5 +1,8 @@
 # generator-joomla3 (Yeoomla)
-[Joomla](http://joomla.org/) 3.5 generator for [Yeoman](http://yeoman.io/)
+[![NPM version][npm-image]][npm-url]
+[![NPM downloads][downloads-image]][downloads-url]
+
+[Joomla 3](http://joomla.org/) resources generator. Created with [Yeoman](http://yeoman.io/)
 
 ![Yeoomla](http://i.imgur.com/0z4xLYp.png?1 "Yeoomla")
 
@@ -39,32 +42,47 @@ $ yo joomla3
 ```
 
 ## Subgenerators
-There are currently **4** subgenerator:
+There are currently **8** subgenerator:
 
 - *crud*: ``yo joomla3:crud`` Generate a CRUD(Controllers, Models(Form, Filter), Tables, Views, Language, etc.) for a joomla component.
 
-- *module*: ``yo joomla3:module`` Genearte a generic module with params
+- *module*: ``yo joomla3:module`` Genearte a module with params
 
-- *plugin*: ``yo joomla3:plugin`` Genearte a generic plugin(Any type) with params and events.
+- *plugin*: ``yo joomla3:plugin`` Genearte a plugin(Any type) with params and events.
 
 - *custom-field*: ``yo joomla3:custom-field`` Genearte a custom field (JFormFieldList).
 
-## Under construction
+- *controller*: ``yo joomla3:controller`` Generate a JController(Form or Admin) in the current Folder
 
-- *controller*: ``yo joomla3:controller`` Generate a generic JController(Form or Admin) in the current Folder
+- *model*: ``yo joomla3:model`` Generate a JModel(Form or List) in the current Folder
 
-- *model*: ``yo joomla3:model`` Generate a generic JModel(Form or List) in the current Folder
+- *table*: ``yo joomla3:table`` Generate a JTable in the current Folder
 
-- *table*: ``yo joomla3:table`` Generate a generic JTable(Form or List) in the current Folder
+- *rule*: ``yo joomla3:rule`` Generate a JRule field
+
+## Under Construction
+
+## Future improvements
+ - Send me yours opinions and possible improvements
+[**@diarcastro**](https://twitter.com/diarcastro)
+on twitter. Don't forget star the project on [Github](https://github.com/diarcastro/generator-joomla3)
 
 
 ### Tips:
   - Try to run ``yo joomla3:crud`` subgenerator inside the folder created by ``yo joomla3`` before install.
+  - Try to create crud(``yo joomla3:crud``) for your tables before install component, if not possible you can run the generators inside the back|front end folder anyway :)
   - Make the model form fields based in your table sql structure
   - Accept overwrite lang files to create all translations correctly
-  - Try to create cruds(``yo joomla3:crud``) for your tables before install component, if not possible you can run the generators inside the back|front end folder anyway :)
 
 ## Releases
+``v0.3.5``
+- Added: JController generator ``yo joomla3:controller`` Try it!
+- Added: JModel generator ``yo joomla3:model`` Try it!
+- Added: JTable generator ``yo joomla3:table`` Try it!
+- Added: JRule generator ``yo joomla3:rule`` Try it!
+- Added: rules folder in default generator
+- Added: addrulepath attribute in models forms
+
 ``v0.3.2``
 - Added: custom-field generator ``yo joomla3:custom-field`` Try it!
 
@@ -104,3 +122,10 @@ There are currently **4** subgenerator:
 - [npmjs.org](https://www.npmjs.com/)
 - [yeoman.io](http://yeoman.io/)
 - [joomla.org](https://www.joomla.org/)
+- [github](https://github.com/diarcastro/)
+
+
+[npm-image]: https://img.shields.io/npm/v/generator-joomla3.svg?style=flat
+[npm-url]: https://npmjs.org/package/generator-joomla3
+[downloads-image]: https://img.shields.io/npm/dm/generator-joomla3.svg?style=flat
+[downloads-url]: https://npmjs.org/package/generator-joomla3
