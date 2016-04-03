@@ -122,7 +122,6 @@ on twitter. Don't forget star the project on [Github](https://github.com/diarcas
 - [npmjs.org](https://www.npmjs.com/)
 - [yeoman.io](http://yeoman.io/)
 - [joomla.org](https://www.joomla.org/)
-- [github](https://github.com/diarcastro/)
 
 
 [npm-image]: https://img.shields.io/npm/v/generator-joomla3.svg?style=flat
