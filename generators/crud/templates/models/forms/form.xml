@@ -3,7 +3,7 @@
 	<fieldset
 		name="fields"
 		addfieldpath="/<% if(data.projectEnv=='admin') {%>administrator/<% }%>components/<%=data.componentName%>/models/fields"
-		addrulepath=="/<% if(data.projectEnv=='admin') {%>administrator/<% }%>components/<%=data.componentName%>/models/rules">
+		addrulepath="/<% if(data.projectEnv=='admin') {%>administrator/<% }%>components/<%=data.componentName%>/models/rules">
 		<% data.fields.forEach(function(field){ %>
 		<field
 			name="<%=field.name%>"

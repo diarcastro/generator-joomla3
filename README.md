@@ -75,6 +75,9 @@ on twitter. Don't forget star the project on [Github](https://github.com/diarcas
   - Accept overwrite lang files to create all translations correctly
 
 ## Releases
+``v0.3.6``
+- Bug fixed in Model form.xml
+
 ``v0.3.5``
 - Added: JController generator ``yo joomla3:controller`` Try it!
 - Added: JModel generator ``yo joomla3:model`` Try it!
