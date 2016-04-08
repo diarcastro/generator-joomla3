@@ -7,11 +7,11 @@
 ![Yeoomla](http://i.imgur.com/0z4xLYp.png?1 "Yeoomla")
 
 ## What It Does (Better)
-Using this generator, you can make quickly a **[Joomla 3](http://joomla.org)** **Components**, **Modules** and **Plugins**(custom fields comming soon) skeleton using MVC design pattern and coding standards. These include:
+Using this generator, you can make quickly a **[Joomla 3](http://joomla.org)** **Components**, **Modules** and **Plugins** skeleton using MVC design pattern and coding standards. These include:
 
 
 * Generate Components, Modules and Plugins to install without errors and save you time
-* Access Control List(ACL)
+* Access Control Lists(ACL)
 * Gererate a Internationalization language files
 * CamelCase variable notation and files names
 * Proper MVC architecture
