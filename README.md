@@ -75,9 +75,6 @@ on twitter. Don't forget star the project on [Github](https://github.com/diarcas
   - Accept overwrite lang files to create all translations correctly
 
 ## Releases
-``v0.3.7``
-- Bug fixed for spanish language in module maker
-
 ``v0.3.6``
 - Bug fixed in Model form.xml
 
