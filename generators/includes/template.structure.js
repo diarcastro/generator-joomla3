@@ -1,5 +1,6 @@
 module.exports = function get(projectName) {
   return {
+	'field/index.html'						:'field/index.html',
     'css/index.html'                     	:'css/index.html',
 	'sass/index.html'						:'sass/index.html',
 	'html/index.html'						:'html/index.html',

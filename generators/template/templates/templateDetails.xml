@@ -30,6 +30,14 @@
 	</languages>
 	<config>
 		<fields name="params">
+			<fieldset name="basic" addfieldpath="/templates/<%=data.templateName%>/fields">
+				<% data.fields.forEach(function(field){%><field
+					name="<%=field.name%>"
+					type="<%=field.type%>"
+					label="<%=data.templateName.uCase()%>_FIELD_<%=field.name.uCase()%>_LABEL"
+					description="<%=data.templateName.uCase()%>_FIELD_<%=field.name.uCase()%>_DESC" />
+				<%})%>
+			</fieldset>
 		</fields>
 	</config>
 </extension>
