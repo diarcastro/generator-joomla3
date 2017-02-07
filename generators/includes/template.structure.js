@@ -1,6 +1,7 @@
 module.exports = function get(projectName) {
   return {
     'css/index.html'                     	:'css/index.html',
+	'sass/index.html'						:'sass/index.html',
 	'html/index.html'						:'html/index.html',
 	'images/index.html'						:'images/index.html',
 	'js/index.html'							:'js/index.html',
