@@ -24,7 +24,8 @@
     "generators/module",
     "generators/plugin",
     "generators/rule",
-    "generators/table"
+    "generators/table",
+	"generators/template"
   ],
   "keywords": [
     "yeoman-generator",
