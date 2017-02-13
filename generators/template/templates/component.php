@@ -1,11 +1,5 @@
 <?php
-	/**
-	 * @package     Joomla.Site
-	 * @subpackage  Templates.<%=data.templateName%>
-	 *
-	 * @copyright   
-	 * @license     
-	 */
+
 	defined('_JEXEC') or die();
 	/* @var $this JDocumentHtml */
 
@@ -25,15 +19,12 @@
 	$sitename = $app->get('sitename');
 
 	$this->setGenerator('');
-	// Add JavaScript Frameworks
-	//JHtml::_('bootstrap.framework');
 
 	$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/template.css');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<jdoc:include type="head" />
 </head>
 <body class="site <?php echo $option

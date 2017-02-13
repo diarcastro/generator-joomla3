@@ -7,10 +7,10 @@
 ![Yeoomla](http://i.imgur.com/0z4xLYp.png?1 "Yeoomla")
 
 ## What It Does (Better)
-Using this generator, you can make quickly a **[Joomla 3](http://joomla.org)** **Components**, **Modules** and **Plugins** skeleton using MVC design pattern and coding standards. These include:
+Using this generator, you can make quickly a **[Joomla 3](http://joomla.org)** **Components**, **Modules**, **Templates** and **Plugins** skeleton using MVC design pattern and coding standards. These include:
 
 
-* Generate Components, Modules, Templates and Plugins to install without errors and save you time
+* Generate Components, Modules, Templates and Plugins to install without errors and save your time
 * Access Control Lists(ACL)
 * Gererate a Internationalization language files
 * CamelCase variable notation and files names
@@ -48,7 +48,7 @@ There are currently **9** subgenerator:
 
 - *module*: ``yo joomla3:module`` Genearte a module with params
 
-- *template*: ``yo joomla3:template`` Genearte a basic template (NEW)
+- *template*: ``yo joomla3:template`` Genearte a basic template **(NEW)**
 
 - *plugin*: ``yo joomla3:plugin`` Genearte a plugin(Any type) with params and events.
 
@@ -77,7 +77,11 @@ on twitter. Don't forget star the project on [Github](https://github.com/diarcas
   - Accept overwrite lang files to create all translations correctly
 
 ## Releases
-``v0.4``
+``v0.4.1``
+- Some bugs fixed
+- Improves in Template generator
+
+``v0.4.0``
 - Added new templates generator by Gonzalo [**@goexrois**](https://twitter.com/goexrois)
 
 ``v0.3.7``
