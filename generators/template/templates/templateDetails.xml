@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name><%=data.templateName.uCase()%></name>
+	<version>0.0</version>
+	<creationDate><%=data.creationDate%></creationDate>
+	<author><%=data.authorName%></author>
+	<authorEmail><%=data.authorEmail%></authorEmail>
+	<copyright>Created by <%=data.authorName%> with generator-joomla3 by @diarcastro</copyright>
+	<description>TPL_<%=data.templateName.uCase()%>_XML_DESCRIPTION</description>
+	<files>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+	<positions>
+		<% data.positions.forEach(function(position){%><position><%=position.name%></position>
+		<%})%></positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_<%=data.templateName%>.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_<%=data.templateName%>.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/templates/<%=data.templateName%>/fields">
+				<% data.fields.forEach(function(field){%><field
+					name="<%=field.name%>"
+					type="<%=field.type%>"
+					label="<%=data.templateName.uCase()%>_FIELD_<%=field.name.uCase()%>_LABEL"
+					description="<%=data.templateName.uCase()%>_FIELD_<%=field.name.uCase()%>_DESC" />
+				<%})%>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
+
