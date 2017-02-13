@@ -10,7 +10,7 @@
 Using this generator, you can make quickly a **[Joomla 3](http://joomla.org)** **Components**, **Modules** and **Plugins** skeleton using MVC design pattern and coding standards. These include:
 
 
-* Generate Components, Modules and Plugins to install without errors and save you time
+* Generate Components, Modules, Templates and Plugins to install without errors and save you time
 * Access Control Lists(ACL)
 * Gererate a Internationalization language files
 * CamelCase variable notation and files names
@@ -42,11 +42,13 @@ $ yo joomla3
 ```
 
 ## Subgenerators
-There are currently **8** subgenerator:
+There are currently **9** subgenerator:
 
 - *crud*: ``yo joomla3:crud`` Generate a CRUD(Controllers, Models(Form, Filter), Tables, Views, Language, etc.) for a joomla component.
 
 - *module*: ``yo joomla3:module`` Genearte a module with params
+
+- *template*: ``yo joomla3:template`` Genearte a basic template (NEW)
 
 - *plugin*: ``yo joomla3:plugin`` Genearte a plugin(Any type) with params and events.
 
@@ -75,6 +77,9 @@ on twitter. Don't forget star the project on [Github](https://github.com/diarcas
   - Accept overwrite lang files to create all translations correctly
 
 ## Releases
+``v0.4``
+- Added new templates generator by Gonzalo [**@goexrois**](https://twitter.com/goexrois)
+
 ``v0.3.7``
 - Bug fixed for spanish language in module maker
 
