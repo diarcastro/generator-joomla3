@@ -77,6 +77,10 @@ on twitter. Don't forget star the project on [Github](https://github.com/diarcas
   - Accept overwrite lang files to create all translations correctly
 
 ## Releases
+``v0.4.2``
+- Fix bug in language for submenu
+- Fix bug for form.xml extension
+
 ``v0.4.1``
 - Some bugs fixed
 - Improves in Template generator

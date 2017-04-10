@@ -304,7 +304,7 @@ var crud = generators.Base.extend({
     if (data.modelItem) {
       filesToCopy[this.templatePath('models/model.php')] = data.baseDir + 'models/' + data.modelItemName + '.php';
       if (data.generateForm) { //Create Form
-        filesToCopy[this.templatePath('models/forms/form.xml')] = data.baseDir + 'models/forms/' + data.modelItemName + '.xml ';
+        filesToCopy[this.templatePath('models/forms/form.xml')] = data.baseDir + 'models/forms/' + data.modelItemName + '.xml';
       }
       if (data.generateController) { //Create JControllerForm
         filesToCopy[this.templatePath('controllers/controller.php')] = data.baseDir + 'controllers/' + data.modelItemName + '.php';
